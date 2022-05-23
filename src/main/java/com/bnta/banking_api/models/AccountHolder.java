@@ -32,8 +32,8 @@ public class AccountHolder{
     protected AccountHolder(){}
 
 //    CONSTRUCTOR
-    public AccountHolder(Long id, String name, LocalDate dob, String address, Employment employment_status) {
-        this.id = id;
+    public AccountHolder(String name, LocalDate dob, String address, Employment employment_status) {
+//        this.id = id;
         this.name = name;
         this.dob = dob;
         this.address = address;

@@ -12,6 +12,8 @@ public class DataLoader {
 
     AccountHolder ah2 = new AccountHolder("kim", LocalDate.of(1998, 05,03), "xx street", Employment.FULL_TIME);
     BasicAccount ba1 = new BasicAccount(true, 1000, "123422", "2342", "343", "2345", ah2);
+    AccountHolder ah3 = new AccountHolder("kim", LocalDate.of(1998, 05,03), "xx street", Employment.FULL_TIME);
+    BasicAccount ba2 = new BasicAccount(true, 1000, "123422", "2342", "343", "2345", ah2);
 
 
 
