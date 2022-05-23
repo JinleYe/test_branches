@@ -12,5 +12,8 @@ public class DataLoader {
 
     AccountHolder ah1 = new AccountHolder("kim", LocalDate.of(1997,4, 3), "xx street", Employment.STUDENT);
     JointAccount ja1 = new JointAccount(true, 2000, "123456", "0423", "393", "3738", "friends", Arrays.asList(ah1));
+    AccountHolder ah4 = new AccountHolder("kim", LocalDate.of(1997,4, 3), "xx street", Employment.STUDENT);
+    JointAccount ja2 = new JointAccount(true, 2000, "123456", "0423", "393", "3738", "friends", Arrays.asList(ah1));
+
 
 }
